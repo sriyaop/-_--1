@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(90deg, #0f2a4a, #20528d);
+}
+
+.container {
+  height: 80vh;
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 4.5rem;
+  background-image: url("./landing\ bg.jpg");
+  background-size: cover;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menubar {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+}
+
+.left {
+  content: url("./icon.jpg");
+  margin: 1rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right p {
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-bars {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 1rem;
+  background-color: #115bab;
+  color: aliceblue;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #1a4074;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar {
+  width: 200px;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 4px 0 0 4px; 
+  outline: none;
+  margin-left: 5rem;
+}
+
+.search-button {
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0; 
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem; 
+  color: white;
+}
+
+.mainL {
+  text-align: center; 
+}
